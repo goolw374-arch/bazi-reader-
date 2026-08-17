@@ -32,16 +32,24 @@ bazi-reader 是一套基于子平八字体系的结构化命理文化分析工�
 ## 目前的目录结构
 
 ```text
-bazhi-reader/
-├── README.md          # 项目说明文档（当前所在的文档）
-├── SKILL.md           # 主控引导与工作流规则
-├── assets/            # 基础数据资源，知识库部分会不断的优化与更新，欢迎大家来打脸
-│   ├── tiangan.json   # 十天干属性、五行、生克规则
-│   ├── dizhi.json     # 十二地支、藏干、节气、刑冲合害
-│   ├── shishen.json   # 十神定义、类象、优劣势解读
-│   └── dayunliunian.json     # 大运排法与起运规则
-└── templates/         # 输出模板
-    └── report.md      # 解读报告输出模板
+📦bazi‑reader
+├─ 📁基础知识
+│  ├─ 十神.json
+│  ├─ 地支分析.json
+│  ├─ 大运流年.json
+│  ├─ 天干.json
+│  ├─ 宫位分析.json
+│  ├─ 日主强弱判断方法.json
+│  ├─ 格式.json
+│  └─ 神煞.json
+├─ 📁进阶知识
+│  ├─ 📁事业分析
+│  ├─ 📁性格分析
+│  ├─ 健康.json
+│  └─ 婚姻感情.json
+├─ 📜README.md
+└─ 📜skill.md
+
 ```
 
 
